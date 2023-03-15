@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Components/ClassComponent';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          {/* <Car/> */}
         </a>
       </header>
     </div>

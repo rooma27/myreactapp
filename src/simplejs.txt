@@ -1,0 +1,14 @@
+<div>
+ <h1>Fruit List</h1>
+ <ul id="fruit-list">
+ <li>Orange</li>
+ <li>Mango</li>
+ <li>Pear</li>
+ </ul>
+</div>
+
+<script>
+function addItemToList() {
+// Add item
+}
+</script>

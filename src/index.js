@@ -2,14 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import ClassComponent from './Components/ClassComponent';
+import MyBurger from './Components/NameSpaced';
+import FunctionalComponent from './Components/FunctionalComponent';
+
 import reportWebVitals from './reportWebVitals';
+import MyComponent from './Components/MyComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ClassComponent/> */}
+    {/* <MyBurger/> */}
+    {/* <FunctionalComponent/> */}
+     <MyComponent name="Hello"/>
+
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
