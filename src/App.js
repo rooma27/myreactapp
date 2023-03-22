@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Car from './Components/ClassComponent';
+import Car from './Components/CounterExample';
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
           {/* <Car/> */}
         </a>
       </header>
+      {/* <FunctionalComponent name ="Rooma" education="Masters"/> */}
     </div>
   );
 }

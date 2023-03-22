@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-class ClassComponent extends React.Component{
-	constructor(){
-		super();
+class CounterExample extends React.Component{
+	constructor(props){
+		super(props);
 		this.state={
 			count :0
 		};
@@ -16,7 +16,7 @@ increase(){
 	render(){
 		return (
 			<div style={{margin:'50px'}}>
-			<h1>Welcome  </h1>
+			<h1>Welcome {this.props.name} </h1>
 			<h3>Counter App using Class Component : </h3>
 			<h2> {this.state.count}</h2>
 			<button onClick={this.increase}> Add</button>
@@ -26,4 +26,4 @@ increase(){
 	}
 }
 
-export default ClassComponent;
+export default CounterExample;

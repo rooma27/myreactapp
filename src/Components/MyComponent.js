@@ -7,9 +7,30 @@ class MyComponent extends React.Component {
     constructor(props) {
         super(props);
     }
-    state = {  }
+    state = {list:  [
+        {
+          id: '01',
+          name: 'John Deo',
+          email: 'john@gmail.com',
+          phone: '202-555-0163'
+        },
+        {
+          id: '02',
+          name: 'Brad Pitt',
+          email: 'fightclud@gmail.com',
+          phone: '202-555-0106'
+        },
+      ]  }
     render() { 
-        return ( <h2>{this.props.name}</h2> );
+        return (  <ul>
+            {this.state.list.map((data) => (
+              <li key={data.id}> 
+                <p>{data.name}</p>
+                <p>{data.email}</p>
+                <p>{data.phone}</p>
+              </li>
+            ))}
+          </ul> );
     }
 
     

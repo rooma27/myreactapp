@@ -2,21 +2,38 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import ClassComponent from './Components/ClassComponent';
+import CounterExample from './Components/CounterExample';
 import MyBurger from './Components/NameSpaced';
 import FunctionalComponent from './Components/FunctionalComponent';
 
 import reportWebVitals from './reportWebVitals';
 import MyComponent from './Components/MyComponent';
+import PropsValidation from './Components/PropsValidation';
+import ListExample from './Components/ListExample';
+import Form from './Components/Form';
+import ControlledForm from './Components/ControlledForm';
+import UncontrolledForm from './Components/UncontrolledForm';
+import Animation from './Components/Animation';
+import FormsyForm from './Components/FormsyExample/FormsyForm';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <ClassComponent/> */}
     {/* <MyBurger/> */}
-    {/* <FunctionalComponent/> */}
-     <MyComponent name="Hello"/>
+    {/* <FunctionalComponent name ="Rooma" education="Masters"/> */}
+     {/* <MyComponent name="Hello"/> */}
+     {/* <PropsValidation /> */}
+     {/* <ListExample/> */}
+    {/* <CounterExample name="Rooma"/> */}
+    {/* <Form/> */}
+    {/* <ControlledForm/> */}
+    {/* <UncontrolledForm/> */}
+    {/* <Animation /> */}
+    <FormsyForm/>
+
 
   </React.StrictMode>
 );
