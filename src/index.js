@@ -16,11 +16,28 @@ import UncontrolledForm from './Components/UncontrolledForm';
 import Animation from './Components/Animation';
 import FormsyForm from './Components/FormsyExample/FormsyForm';
 import 'bootstrap/dist/css/bootstrap.css';
+import LifeCycle from './Components/LifeCycle';
+import UseEffecthook from './Components/UseEffecthook';
+import RoutingExample from './Components/RoutingExample/RoutingExample';
+import Navigation from './Components/RoutingExample/Navbar';
+import { BrowserRouter } from 'react-router-dom';
+import Greeting from './Components/RoutingExample/ConditionalRendering';
+import EventBind from './Components/EventBind';
+import EventBubbling from './Components/EventBubbling';
+import Parent from './Components/Parent';
+import Styled from './Components/CSS Styling/Styled';
+import StyledComponent from './Components/CSS Styling/StyledComponent';
+import { CookiesProvider } from "react-cookie";
+import CookieExample from './Components/CookieExample';
+import CCCookieexample from './Components/CCCookieexample';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CookiesProvider>
     {/* <App /> */}
     {/* <MyBurger/> */}
     {/* <FunctionalComponent name ="Rooma" education="Masters"/> */}
@@ -32,8 +49,22 @@ root.render(
     {/* <ControlledForm/> */}
     {/* <UncontrolledForm/> */}
     {/* <Animation /> */}
-    <FormsyForm/>
+    {/* <FormsyForm/> */}
+    {/* <LifeCycle favcol='pink'/> */}
+    {/* <UseEffecthook/> */}
+    {/* <BrowserRouter>
 
+    <RoutingExample/>
+    </BrowserRouter> */}
+    {/* <Greeting isLoggedIn={true} /> */}
+    {/* <EventBind/> */}
+    {/* <EventBubbling/> */}
+    {/* <Parent/> */}
+    {/* <Styled/> */}
+    {/* <StyledComponent/> */}
+    {/* <CookieExample/> */}
+    <CCCookieexample/>
+    </CookiesProvider>
 
   </React.StrictMode>
 );

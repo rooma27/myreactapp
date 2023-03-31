@@ -1,0 +1,25 @@
+.bigblue {
+    color: DodgerBlue;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+  }
+
+  body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+  }
+
+  button{
+    color:aqua;
+    padding: 20px;
+    background-color: blue;
+  }
+
+  * {
+  text-align: center;
+  color: blue;
+}
