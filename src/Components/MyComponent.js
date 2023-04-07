@@ -24,7 +24,7 @@ class MyComponent extends React.Component {
     render() { 
         return (  <ul>
             {this.state.list.map((data) => (
-              <li key={data.id}> 
+            <li key={data.id}> 
                 <p>{data.name}</p>
                 <p>{data.email}</p>
                 <p>{data.phone}</p>

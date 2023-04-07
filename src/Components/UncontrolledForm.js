@@ -6,6 +6,7 @@ class UncontrolledForm extends React.Component {
         super(props);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.input = React.createRef();
+        this.lastname = React.createRef();
       }
     
       handleSubmit(event) {

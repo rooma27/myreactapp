@@ -52,7 +52,7 @@ function getMobile(manufacturer, model, year) {
     }
  }
  getMobile("Samsung", "Galaxy", "2020");
- 
+
 // Promises
 var asyncCall =  new Promise((resolve, reject) => {
     // do something

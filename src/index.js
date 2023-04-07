@@ -30,13 +30,18 @@ import StyledComponent from './Components/CSS Styling/StyledComponent';
 import { CookiesProvider } from "react-cookie";
 import CookieExample from './Components/CookieExample';
 import CCCookieexample from './Components/CCCookieexample';
-
+import { Provider } from 'react-redux';
+import { store } from './store';
+import ReduxForm from './Components/FormsyExample/ReduxForm';
+import CCRedux from './Components/CCRedux';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <Provider store={store}>
+
     <CookiesProvider>
     {/* <App /> */}
     {/* <MyBurger/> */}
@@ -50,6 +55,7 @@ root.render(
     {/* <UncontrolledForm/> */}
     {/* <Animation /> */}
     {/* <FormsyForm/> */}
+    {/* <ReduxForm/> */}
     {/* <LifeCycle favcol='pink'/> */}
     {/* <UseEffecthook/> */}
     {/* <BrowserRouter>
@@ -63,8 +69,10 @@ root.render(
     {/* <Styled/> */}
     {/* <StyledComponent/> */}
     {/* <CookieExample/> */}
-    <CCCookieexample/>
+    {/* <CCCookieexample/> */}
+    <CCRedux/>
     </CookiesProvider>
+    </Provider>
 
   </React.StrictMode>
 );
