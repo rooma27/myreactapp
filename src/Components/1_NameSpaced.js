@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 
-import Burger from "./Burger";
+import Burger from "./1_Burger";
 
 let MyBurger = () => (
     <Burger title="my burger">

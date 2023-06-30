@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import CounterExample from './Components/CounterExample';
-import MyBurger from './Components/NameSpaced';
+import MyBurger from './Components/1_NameSpaced';
 import FunctionalComponent from './Components/FunctionalComponent';
 
 import reportWebVitals from './reportWebVitals';
@@ -40,11 +40,11 @@ import CCRedux from './Components/CCRedux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Provider store={store}>
+   {/* <Provider store={store}> */}
 
-    <CookiesProvider>
+     {/* <CookiesProvider> */}
     {/* <App /> */}
-    {/* <MyBurger/> */}
+     <MyBurger/> 
     {/* <FunctionalComponent name ="Rooma" education="Masters"/> */}
      {/* <MyComponent name="Hello"/> */}
      {/* <PropsValidation /> */}
@@ -70,11 +70,11 @@ root.render(
     {/* <StyledComponent/> */}
     {/* <CookieExample/> */}
     {/* <CCCookieexample/> */}
-    <CCRedux/>
+    {/* <CCRedux/>
     </CookiesProvider>
-    </Provider>
+    </Provider> */}
 
-  </React.StrictMode>
+   </React.StrictMode>
 );
 
 
