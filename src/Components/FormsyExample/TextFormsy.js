@@ -22,7 +22,7 @@ class TextFormsy extends React.Component {
     return (
       <div>
         <input className="form-control" onChange={this.changeValue} type="text" value={this.props.value || ''} />
-        <span>{errorMessage}</span>
+        <span style={{margin:"20px"}}>{errorMessage}</span>
       </div>
     );
   }

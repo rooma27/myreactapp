@@ -2,18 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import CounterExample from './Components/CounterExample';
+import CounterExample from './Components/2_ClassCounterExample';
 import MyBurger from './Components/1_NameSpaced';
-import FunctionalComponent from './Components/FunctionalComponent';
+import FunctionalComponent from './Components/2_FunctionalComponent';
 
 import reportWebVitals from './reportWebVitals';
-import MyComponent from './Components/MyComponent';
-import PropsValidation from './Components/PropsValidation';
+import MyComponent from './Components/2_ClassComponent';
+import PropsValidation from './Components/2_PropsValidation';
 import ListExample from './Components/ListExample';
-import Form from './Components/Form';
-import ControlledForm from './Components/ControlledForm';
-import UncontrolledForm from './Components/UncontrolledForm';
-import Animation from './Components/Animation';
+import Form from './Components/3_Form';
+import ControlledForm from './Components/3_ControlledForm';
+import UncontrolledForm from './Components/3_UncontrolledForm';
+import Animation from './Components/3_Animation';
 import FormsyForm from './Components/FormsyExample/FormsyForm';
 import 'bootstrap/dist/css/bootstrap.css';
 import LifeCycle from './Components/LifeCycle';
@@ -34,6 +34,8 @@ import { Provider } from 'react-redux';
 import { store } from './store';
 import ReduxForm from './Components/FormsyExample/ReduxForm';
 import CCRedux from './Components/CCRedux';
+import Test from './Components/Session2';
+import TodoList from './Components/3_AnimationEx';
 
 
 
@@ -44,17 +46,20 @@ root.render(
 
      {/* <CookiesProvider> */}
     {/* <App /> */}
-     <MyBurger/> 
+     {/* <MyBurger/>  */}
     {/* <FunctionalComponent name ="Rooma" education="Masters"/> */}
+    {/* <Test education="BE"  /> */}
      {/* <MyComponent name="Hello"/> */}
-     {/* <PropsValidation /> */}
+   
+     {/* <PropsValidation propArray ="test"  /> */}
      {/* <ListExample/> */}
     {/* <CounterExample name="Rooma"/> */}
     {/* <Form/> */}
     {/* <ControlledForm/> */}
     {/* <UncontrolledForm/> */}
     {/* <Animation /> */}
-    {/* <FormsyForm/> */}
+    {/* <TodoList/> */}
+    <FormsyForm/>
     {/* <ReduxForm/> */}
     {/* <LifeCycle favcol='pink'/> */}
     {/* <UseEffecthook/> */}

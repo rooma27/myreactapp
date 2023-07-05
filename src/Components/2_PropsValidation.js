@@ -5,7 +5,7 @@ class PropsValidation extends React.Component {
    render() {
       return (
          <div>
-            {/* <h3>Array: {this.props.propArray}</h3> */}
+            <h3>Array: {this.props.propArray}</h3>
             <h3>Bool: {this.props.propBool ? "True..." : "False..."}</h3>
             <h3>Func: {this.props.propFunc(3)}</h3>
             <h3>Number: {this.props.propNumber}</h3>
